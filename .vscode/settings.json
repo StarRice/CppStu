@@ -4,7 +4,8 @@
         "ostream": "cpp",
         "exception": "cpp",
         "new": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "iostream": "cpp"
     },
     "C_Cpp.intelliSenseEngineFallback": "Disabled", 
     "C_Cpp.intelliSenseEngine": "Tag Parser",  
