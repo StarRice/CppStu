@@ -2,7 +2,7 @@
  * @Author: yw o 1622945822@qq.com
  * @Date: 2023-07-13 14:45:25
  * @LastEditors: yw o 1622945822@qq.com
- * @LastEditTime: 2023-07-14 11:48:43
+ * @LastEditTime: 2023-07-14 16:35:55
  * @FilePath: \c++\hello.cpp
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -10,9 +10,10 @@
 #include <string>
 #include <cctype>
 using namespace std;
+/* 使用预编译来调试单独的例子*/
 
-// #define STRING_1 1 
-#define STRING_2 0 
+// #define STRING_1 1  /* 无论是1还是0都会执行STRING_1 */
+#define STRING_2 0     /* 1--> 有效 0-->无效*/
 #define STRING_3 0
 #define STRING_4 1
 int main()
@@ -37,7 +38,7 @@ int main()
     string s("hello world"); 
     for (decltype(s.size()) index = 0;
         index != s.size() && !isspace(s[index]);++index)
-        s[index] = toupper(s[index]);
+        s[index] = toupper(s[index]); /* 标准库函数，接收一个字母，输出其大写字母 */
     cout << s <<endl;
 #elif STRING_4
     const string hexdigits = "12346789ABCDEF";
