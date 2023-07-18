@@ -17,7 +17,7 @@
             "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
             "cStandard": "c11",
             "cppStandard": "gnu++14",
-            "intelliSenseMode": "windows-gcc-x64"
+            "intelliSenseMode": "windows-gcc-x86"
         }
     ],
     "version": 4 //
