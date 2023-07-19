@@ -5,7 +5,17 @@
         "exception": "cpp",
         "new": "cpp",
         "string": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "array": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "deque": "cpp",
+        "queue": "cpp",
+        "vector": "cpp",
+        "*.tcc": "cpp",
+        "memory": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp"
     },
     "C_Cpp.intelliSenseEngineFallback": "Disabled", 
     "C_Cpp.intelliSenseEngine": "Tag Parser",  
