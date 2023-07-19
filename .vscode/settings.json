@@ -15,7 +15,9 @@
         "*.tcc": "cpp",
         "memory": "cpp",
         "functional": "cpp",
-        "tuple": "cpp"
+        "tuple": "cpp",
+        "random": "cpp",
+        "unordered_map": "cpp"
     },
     "C_Cpp.intelliSenseEngineFallback": "Disabled", 
     "C_Cpp.intelliSenseEngine": "Tag Parser",  
