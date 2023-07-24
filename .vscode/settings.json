@@ -17,7 +17,9 @@
         "functional": "cpp",
         "tuple": "cpp",
         "random": "cpp",
-        "unordered_map": "cpp"
+        "unordered_map": "cpp",
+        "cctype": "cpp",
+        "stdexcept": "cpp"
     },
     "C_Cpp.intelliSenseEngineFallback": "Disabled", 
     "C_Cpp.intelliSenseEngine": "Tag Parser",  
