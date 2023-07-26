@@ -19,7 +19,8 @@
         "random": "cpp",
         "unordered_map": "cpp",
         "cctype": "cpp",
-        "stdexcept": "cpp"
+        "stdexcept": "cpp",
+        "system_error": "cpp"
     },
     "C_Cpp.intelliSenseEngineFallback": "Disabled", 
     "C_Cpp.intelliSenseEngine": "Tag Parser",  
