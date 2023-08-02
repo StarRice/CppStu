@@ -1,8 +1,8 @@
 /*
  * @Author: yw o 1622945822@qq.com
  * @Date: 2023-07-28 14:54:40
- * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2023-08-02 21:29:36
+ * @LastEditors: oyw 1622945822@qq.com
+ * @LastEditTime: 2023-08-02 21:53:46
  * @FilePath: \c++\chapter_6\eg6_5.cpp
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -23,6 +23,5 @@ int main()
     cout << sum() << endl; /* 输出 3 */
     cout << sum(5) << endl;/* 输出 7 */
 //   cout << sum(,3) << endl; /* 错误：只能省略尾部的实参 */
-/
     return 0;
 }
