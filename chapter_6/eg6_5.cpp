@@ -2,7 +2,7 @@
  * @Author: yw o 1622945822@qq.com
  * @Date: 2023-07-28 14:54:40
  * @LastEditors: oyw 1622945822@qq.com
- * @LastEditTime: 2023-09-07 20:39:17
+ * @LastEditTime: 2023-09-15 18:09:38
  * @FilePath: \c++\chapter_6\eg6_5.cpp
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -25,4 +25,6 @@ int main()
 //   cout << sum(,3) << endl; /* 错误：只能省略尾部的实参 */
     return 0;
 }
+
+/*  */
 
